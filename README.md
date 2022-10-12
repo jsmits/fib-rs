@@ -45,6 +45,12 @@ $ wasmtime target/wasm32-unknown-unknown/release/fib_rs.wasm --invoke fib 24
 $ wasm3 --func fib target/wasm32-unknown-unknown/release/fib_rs.wasm 24
 ```
 
+### Wasmer
+
+```
+$ wasmer -i fib target/wasm32-unknown-unknown/release/fib_rs.wasm 24
+```
+
 ## Links
 
 - https://depth-first.com/articles/2020/06/29/compiling-rust-to-webassembly-a-simple-example/
