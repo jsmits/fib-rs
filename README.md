@@ -22,6 +22,17 @@ $ wasm-gc target/wasm32-unknown-unknown/release/fib_rs.wasm
 $ ./fib.py 24
 ```
 
+### Python (wasmtime.loader)
+
+```
+$ cd target/wasm32-unknown-unknown/release
+
+$ ipython
+>>> import wasmtime.loader
+>>> import fib_rs
+>>> fib_rs.fib(24)
+```
+
 ### Wasmtime
 
 ```
