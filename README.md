@@ -40,4 +40,5 @@ $ wasm3 --func fib target/wasm32-unknown-unknown/release/fib_rs.wasm 24
 - https://github.com/wasm3/pywasm3
 - https://github.com/wasm3/wasm3
 - https://github.com/vshymanskyy/awesome-wasm-tools
+- https://www.sobyte.net/post/2022-04/rust-plugin-with-webassembly/
 
